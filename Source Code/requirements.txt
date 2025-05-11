@@ -1,0 +1,28 @@
+# Requirements for the Ethical Challenges in AI-based Cyber Warfare project
+
+# Frontend dependencies (if using Node.js/npm)
+# Note: The project uses external CDN links for AOS and Google Fonts,
+# so these are optional if you want to install them locally
+
+# AOS (Animate On Scroll) - Used in quiz.html
+aos==2.3.4
+
+# Development server (optional)
+# Flask (if serving the project locally)
+flask==2.0.1
+
+# Or for a simple Python HTTP server:
+# python==3.9.0
+
+# Testing dependencies (optional)
+pytest==6.2.5
+selenium==4.1.0
+
+# Linting tools (optional)
+prettier==2.4.1
+eslint==8.2.0
+stylelint==14.1.0
+
+# Note: The project primarily consists of static files (HTML, CSS, JS)
+# and doesn't strictly require server-side dependencies unless you're
+# planning to extend it with backend functionality.
